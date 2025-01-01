@@ -1,0 +1,1105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div1 {
+  border: 2px solid rgb(5, 104, 181);
+  background-color: rgb(5, 104, 181);
+  padding: 15px;
+}
+
+.div2 {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+.img{
+  width: 70px;
+  height: auto;
+}
+.nav-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 13px;
+}
+.btn-d{
+  display: flex;
+}
+.navbar-btn {
+  height: 2rem;
+  width: 6rem;
+  background-color: yellow;
+  border-color: yellow;
+}
+
+.img {
+  /* mix-blend-mode: color-burn; */
+  width: 90px;
+  height: 80px;
+}
+
+.div3 {
+  border: 2px solid rgb(5, 104, 181);
+  background-color: rgb(5, 104, 181);
+  padding: 50px 0px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-search-bar-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search-bar {
+  width: 23rem;
+  height: 3rem;
+  border-radius: 10rem;
+  padding: 0px 20px;
+  margin: 15px 2px;
+}
+
+.container {
+  position: relative;
+}
+
+.icon {
+  font-size: 22px;
+  top: 50%;
+  right: 3%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: rgb(45, 136, 234);
+}
+
+.num {
+  font-size: 15px;
+  color: darkgoldenrod;
+}
+
+.num-text {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.div4 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid white;
+  gap: 30px;
+}
+
+.space-bw-sidebar-div {
+  margin-bottom: 20px;
+}
+
+.side-bar {
+  width: 20%;
+  height: 100%;
+  margin-top: 40px;
+  padding-left: 40px;
+}
+
+.heading-1 {
+  font-size: 30px;
+}
+
+.para {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  font-size: 16px;
+  margin: 15px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.item-margin {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  gap: 15px;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider {
+  size: 10rem;
+}
+
+.sidebar-btn {
+  background-color: yellow;
+  border-color: yellow;
+  height: 3rem;
+  width: 10rem;
+  font-size: 16px;
+  margin: 15px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-scnd-btn {
+  background-color: rgb(255, 255, 246);
+  border-color: rgb(128, 128, 127);
+  height: 3rem;
+  width: 10rem;
+  font-size: 16px;
+  margin: 15px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-area {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: 65%;
+  height: 100%;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.houses {
+  width: 15rem;
+  height: 10rem;
+}
+
+.all-houses {
+  /* border: 2px solid rgb(255, 255, 255); */
+  box-shadow: 5px 5px 4px rgb(225, 225, 225), -5px -5px 4px rgb(234, 232, 232);
+}
+
+.text-under-house {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 10px;
+  row-gap: 10px;
+  font-size: 13px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-size {
+  background-color: yellow;
+  border-color: yellow;
+  font-size: 13px;
+  height: 2rem;
+  width: 5rem;
+}
+
+
+
+.div5{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 13px;
+}
+.btns-setting {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 70px 250px;
+}
+.btn:hover {
+  background-color: rgb(18, 100, 252);
+  color: white;
+}
+.first-btn-size {
+  border: 2px solid rgb(18, 100, 252);
+  background-color: white;
+  color: rgb(18, 100, 252);
+  height: 2rem;
+  width: 5rem;
+}
+.center-btn {
+  border: 2px solid rgb(18, 100, 252);
+  background-color: white;
+  color: rgb(18, 100, 252);
+  height: 2rem;
+  width: 2rem;
+}
+.last-btn-size {
+  border: 2px solid rgb(18, 100, 252);
+  background-color: white;
+  color: rgb(18, 100, 252);
+  height: 2rem;
+  width: 3rem;
+}
+
+.footer-img {
+  height: 25rem;
+  width: 100%;
+}
+
+.img-position {
+  position: relative;
+}
+
+.bold-text {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.text {
+  top: 30%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 13px;
+}
+.newspaper{
+  /* word-wrap: normal;
+  width: 15rem; */
+  text-align: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-searchbar {
+  width: 23rem;
+  height: 3rem;
+  padding: 0px 20px;
+  margin: 20px 2px;
+}
+
+.subscribe {
+  background-color: yellow;
+  border-color: yellow;
+  width: 8rem;
+  height: 3rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.logo-img{
+  width: 100px;
+  height: auto ;
+}
+
+.body {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 18px;
+  row-gap: 8px;
+  word-wrap: normal;
+  width: 10rem;
+}
+.icons-size {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.heading {
+  font-size: 20px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  padding-right: 100px;
+}
+
+.list1-body{
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+
+}
+.scnd-list {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-top: 35px;
+}
+
+.end-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-line {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.cards {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  gap: 5px;
+}
+
+.line {
+  border-top: 2px solid rgb(207, 204, 204);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+/* Extra small devices (mobile) */
+
+@media  (min-width: 320px) and (max-width: 599px) {
+
+    /* section 2st contain header////////*/
+  .div2 {
+      flex-direction: column !important;
+      gap: 20px;
+      align-items: none;
+    
+  }
+  .img{
+    width: 70px !important;
+    height: auto !important;
+  }
+  .list {
+    justify-content: space-evenly;
+    font-size: 11px !important;
+    gap: 10px !important;
+  }
+  .nav-icons {
+    justify-content: space-evenly;
+    font-size: 11px !important;
+  }
+  .navbar-btn {
+    width: 4rem !important;
+    font-size: 10px !important;
+  }
+ .btn-d{
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+/* section-3 (search-bar area)/////////////////////// */
+
+  .div3 {
+    font-size: 22px !important;
+    padding: 40px !important;
+  }
+  .search-bar {
+    width: 15rem !important;
+    height: 2rem !important;
+  }
+  .icon {
+    font-size: 18px !important;
+  }
+  .num {
+    font-size: 11px !important;
+  }
+  .num-text {
+    font-size: 12px !important;
+  }
+  
+  /* section-4 (side-bar area and main area)/////////////////// */
+
+  .div4 {
+    /* gap: 40px !important; */
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .space-bw-sidebar-div {
+    margin-bottom: 15px;
+  }
+  
+/* side-bar area///////////////////////? */
+
+  .side-bar {
+    width: 50% !important;
+    margin-top: 20px !important;
+    /* padding-left: 50px !important; */
+    align-items: center;
+  }
+  .heading-1 {
+    font-size: 20px !important;
+  }
+  .para {
+    font-size: 11px !important;
+    margin: 10px 0px !important;
+  }
+  .item-margin {
+    padding-left: 15px !important;
+    gap: 10px !important;
+    font-size: 8px !important;
+  }
+  .sidebar-btn {
+    height: 2rem !important;
+    width: 3rem !important;
+    font-size: 9px !important;
+    margin: 10px 0px !important;
+  }
+  .sidebar-scnd-btn {
+    height: 2rem !important;
+    width: 3rem !important;
+    font-size: 9px !important;
+    margin: 10px 0px !important;
+  }
+ 
+/* main area contain cards///////////////// */
+
+  .main-area {
+    width: 100% !important;
+    column-gap: 8px;
+    row-gap: 8px;
+    margin-top: 20px !important;
+    justify-content: center;
+  }
+  .houses {
+    width: 9rem !important;
+    height: 5rem !important;
+  }
+  .all-houses {
+    box-shadow: 3px 3px 4px rgb(225, 225, 225), -3px -3px 4px rgb(234, 232, 232);
+  }
+  .text-under-house {
+    column-gap: 1px !important;
+    row-gap: 5px !important;
+    font-size: 9px !important;
+    padding: 3px !important;
+  }
+  .button-size {
+    font-size: 9px !important;
+    height: 1.5rem !important;
+    width: 3rem !important;
+  }
+  
+  /* section-5 buttons under side bar and main area//////////////////// */
+
+  .btns-setting {
+    column-gap: 1px !important;
+    justify-content: center;
+    margin: 20px auto !important  ;
+  }
+  .first-btn-size {
+    height: 1.5rem !important;
+    width: 3rem !important;
+    font-size: 8px !important;
+  }
+  .center-btn {
+    color: rgb(18, 100, 252);
+    height: 1.5rem !important;
+    width: 1rem !important;
+  }
+  .last-btn-size {
+    height: 1.5rem !important;
+    width: 2rem !important;
+    font-size: 8px !important;
+  }
+
+/* footer area with image //////////////////////// */
+
+  .footer-img {
+    height: auto ;
+    width: 100%;
+  }
+  .bold-text {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .text {
+    top: 15%;
+    font-size: 10px;
+  }
+  .img-searchbar {
+    width: 10rem;
+    height: 1.5rem;
+    margin: 10px 2px;
+    font-size: 8px;
+  }
+  .subscribe {
+    width: 4rem !important;
+    height: 1.5rem !important;
+    font-size: 10px !important;
+  }
+
+/* footer with logo ////////////////////// */
+
+  .footer {
+    flex-wrap: wrap !important;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+  }
+  .logo-img{
+    width: 3rem;
+    height: 2rem;
+
+  }
+  .body {
+    font-size: 8px;
+    padding-left: 0px;
+    row-gap: 8px;
+    word-wrap: normal;
+    width: 5rem;
+  }
+  .icons-size {
+    font-size: 11px;
+    padding-top: 3px;
+  }
+  .heading {
+    font-size: 12px !important;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-right: 0px;
+  }
+  .list1-body{
+    font-size: 8px;
+    padding-left: 12px;
+    gap: 4px;
+  }
+  .scnd-list {
+    font-size: 8px;
+    padding-left: 20px;
+    margin-top: 37px;
+    gap: 4px;
+  }
+
+/* end section of page copyright section/////////// */
+
+  .end-sec {
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .last-line {
+    font-size: 7px;
+  }
+  .copyright-icon{
+    font-size: 8px;
+  }
+  .cards {
+    height: 10px;
+    width: 10px;
+    gap: 1px;
+  }
+  .line {
+    border-top: 1px solid rgb(207, 204, 204);
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+  }
+}
+
+
+/* Small devices (mobile landscape/tablet portrait) */
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+   /* section 2st contain header////////*/
+  .div2 {
+    gap: 10px;
+  }
+  .img{
+  width: 70px !important;
+  height: auto !important;
+  }
+  .list {
+  justify-content: space-evenly;
+  font-size: 11px !important;
+  gap: 10px !important;
+  }
+  .nav-icons {
+  justify-content: space-evenly;
+  font-size: 11px !important;
+  }  
+  .navbar-btn {
+  width: 4rem !important;
+  font-size: 10px !important;
+  }
+  .btn-d{
+  justify-content: center;
+  margin-bottom: 5px;
+  }
+
+  /* section-3 (search-bar area)/////////////////////// */
+
+  .div3 {
+    font-size: 22px !important;
+    padding: 40px !important;
+  }
+  .search-bar {
+    width: 15rem !important;
+    height: 2rem !important;
+  }
+  .icon {
+    font-size: 18px !important;
+  }
+  .num {
+    font-size: 11px !important;
+  }
+  .num-text {
+    font-size: 12px !important;
+  }
+  
+  /* section-4 (side-bar area and main area)/////////////////// */
+
+  .div4 {
+    gap: 20px !important;  
+    justify-content: center;
+  }
+  .space-bw-sidebar-div {
+    margin-bottom: 15px;
+  }
+  
+/* side-bar area///////////////////////? */
+
+  .side-bar {
+    width: 30% !important;
+    margin-top: 20px !important;
+    /* padding-left: 50px !important; */
+    align-items: center;
+  }
+  .heading-1 {
+    font-size: 22px !important;
+    margin-bottom: 15px;
+  }
+  .para {
+    font-size: 12px !important;
+    margin: 10px 0px !important;
+  }
+  .item-margin {
+    padding-left: 15px !important;
+    gap: 14px !important;
+    font-size: 9px !important;
+  }
+  .sidebar-btn {
+    height: 2rem !important;
+    width: 5rem !important;
+    font-size: 11px !important;
+    margin: 12px 0px !important;
+  }
+  .sidebar-scnd-btn {
+    height: 2rem !important;
+    width: 5rem !important;
+    font-size: 11px !important;
+    margin: 8px 0px !important;
+  }
+ 
+/* main area contain cards///////////////// */
+
+  .main-area {
+    width: 60% !important;
+    column-gap: 12px;
+    row-gap: 10px;
+    margin-top: 20px !important;
+    justify-content: center;
+  }
+  .houses {
+    width: 10rem !important;
+    height: 6rem !important;
+  }
+  .all-houses {
+    box-shadow: 3px 3px 4px rgb(225, 225, 225), -3px -3px 4px rgb(234, 232, 232);
+  }
+  .text-under-house {
+    column-gap: 1px !important;
+    row-gap: 5px !important;
+    font-size: 10px !important;
+    padding: 4px 3px !important;
+  }
+  .button-size {
+    font-size: 10px !important;
+    height: 1.5rem !important;
+    width: 4rem !important;
+  }
+
+  /* section-5 buttons under side bar and main area//////////////////// */
+  
+  .btns-setting {
+    column-gap: 2px !important;
+    margin: 40px auto !important  ;
+  }
+  .first-btn-size {
+    height: 1.5rem !important;
+    width: 4rem !important;
+    font-size: 10px !important;
+  }
+  .center-btn {
+    color: rgb(18, 100, 252);
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+  }
+  .last-btn-size {
+    height: 1.5rem !important;
+    width: 3rem !important;
+    font-size: 10px !important;
+  }
+
+/* footer area with image //////////////////////// */
+
+  .footer-img {
+    height: 15rem ;
+    width: 100%;
+  }
+  .bold-text {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .text {
+    top: 15%;
+    font-size: 11px;
+  }
+  .img-searchbar {
+    width: 15rem;
+    height: 2rem;
+    margin: 10px 2px;
+    font-size: 12px;
+  }
+  .newspaper{
+    text-wrap: wrap;
+    width: 15rem;
+    text-align: center;
+  }
+  .subscribe {
+    width: 5rem !important;
+    height: 2rem !important;
+    font-size: 12px !important;
+  }
+
+  /* footer with logo ////////////////////// */
+
+  .footer {
+    flex-wrap: wrap !important;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+  }
+  .logo-img{
+    width: 4rem;
+    height: 3rem;
+  }
+  .body {
+    font-size: 10px;
+    padding-left: 0px;
+    row-gap: 10px;
+    word-wrap: wrap;
+    width: 8rem;
+  }
+  .icons-size {
+    font-size: 13px;
+    padding-top: 5px;
+  }
+  .heading {
+    font-size: 15px !important;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    padding-right: 0px;
+  }
+  .list1-body{
+    font-size: 10px;
+    padding-left: 12px;
+    gap: 5px;
+  }
+  .scnd-list {
+    font-size: 10px;
+    padding-left: 20px;
+    margin-top: 37px;
+    gap: 5px;
+  }
+
+/* end section of page copyright section/////////// */
+
+  .end-sec {
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .last-line {
+    font-size: 10px;
+  }
+  .copyright-icon{
+    font-size: 10px;
+  }
+  .cards {
+    height: 11px;
+    width: 11px;
+    gap: 2px;
+  }
+  .line {
+    border-top: 1px solid rgb(207, 204, 204);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+
+/* Medium devices (tablet landscape) */
+
+@media (min-width: 768px) and (max-width: 1212px) {
+ 
+   /* section 2st contain header////////*/
+
+  .div2 {
+    gap: 5px;
+  }
+  .img{
+  width: 80px !important;
+  height: auto !important;
+  }
+  .list {
+  justify-content: space-evenly;
+  font-size: 13px !important;
+  gap: 12px !important;
+  }
+  .nav-icons {
+  justify-content: space-evenly;
+  font-size: 12px !important;
+  }  
+  .navbar-btn {
+  width: 5rem !important;
+  font-size: 11px !important;
+  }
+  .btn-d{
+  justify-content: center;
+  }
+
+  /* section-3 (search-bar area)/////////////////////// */
+
+  .div3 {
+    font-size: 23px !important;
+    padding: 40px !important;
+  }
+  .search-bar {
+    width: 18rem !important;
+    height: 2rem !important;
+  }
+  .icon {
+    font-size: 19px !important;
+  }
+  .num {
+    font-size: 12px !important;
+  }
+  .num-text {
+    font-size: 13px !important;
+  }
+  
+  /* section-4 (side-bar area and main area)/////////////////// */
+
+  .div4 {
+    gap: 30px !important;  
+    justify-content: center;
+  }
+  .space-bw-sidebar-div {
+    margin-bottom: 18px;
+  }
+  
+/* side-bar area///////////////////////? */
+
+  .side-bar {
+    width: 20% !important;
+    margin-top: 25px !important;
+    /* padding-left: 50px !important; */
+    align-items: center;
+  }
+  .heading-1{
+    font-size: 29px !important;
+    margin-bottom: 18px;
+  }
+  .para {
+    font-size: 13px !important;
+    margin: 12px 0px !important;
+  }
+  .item-margin {
+    padding-left: 15px !important;
+    gap: 10px !important;
+    font-size: 10px !important;
+  }
+  .sidebar-btn {
+    height: 2rem !important;
+    width: 7rem !important;
+    font-size: 12px !important;
+    margin: 12px 0px !important;
+  }
+  .sidebar-scnd-btn {
+    height: 2rem !important;
+    width: 7rem !important;
+    font-size: 13px !important;
+    margin: 7px 0px !important;
+  }
+ 
+/* main area contain cards///////////////// */
+
+  .main-area {
+    width: 70% !important;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-top: 35px !important;
+    justify-content: center;
+  }
+  .houses {
+    width: 10rem !important;
+    height: 8rem !important;
+  }
+  .all-houses {
+    box-shadow: 3px 3px 4px rgb(225, 225, 225), -3px -3px 4px rgb(234, 232, 232);
+  }
+  .text-under-house {
+    column-gap: 1px !important;
+    row-gap: 5px !important;
+    font-size: 10px !important;
+    padding: 4px 3px !important;
+  }
+  .button-size {
+    font-size: 11px !important;
+    height: 1.5rem !important;
+    width: 4rem !important;
+  }
+
+  /* section-5 buttons under side bar and main area//////////////////// */
+  
+  .btns-setting {
+    column-gap: 10px !important;
+    margin: 60px auto !important  ;
+  }
+  .first-btn-size {
+    height: 2rem !important;
+    width: 5rem !important;
+    font-size: 13px !important;
+  }
+  .center-btn {
+    color: rgb(18, 100, 252);
+    height: 2rem !important;
+    width: 2rem !important;
+  }
+  .last-btn-size {
+    height: 2rem !important;
+    width: 4rem !important;
+    font-size: 13px !important;
+  }
+
+/* footer area with image //////////////////////// */
+
+  .footer-img {
+    height: 18rem ;
+    width: 100%;
+  }
+  .bold-text {
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .text {
+    top: 20%;
+    font-size: 11px;
+  }
+  .img-searchbar {
+    width: 18rem;
+    height: 2rem;
+    margin: 15px 2px;
+    font-size: 13px;
+  }
+  .newspaper{
+    text-wrap: nowrap;
+  }
+  .subscribe {
+    width: 6rem !important;
+    height: 2rem !important;
+    font-size: 13px !important;
+  }
+
+  /* footer with logo ////////////////////// */
+
+  .footer {
+    /* flex-wrap: wrap !important; */
+    margin-top: 25px;
+    margin-bottom: 2rem;
+  }
+  .logo-img{
+    width: 5rem;
+    height: 4rem;
+  }
+  .body {
+    font-size: 10px;
+    padding-left: 0px;
+    row-gap: 11px;
+    word-wrap: wrap;
+    width: 8rem;
+  }
+  .icons-size {
+    font-size: 15px;
+    padding-top: 8px;
+  }
+  .heading {
+    font-size: 18px !important;
+    margin-bottom: 8px;
+    margin-top: 40px;
+    padding-right: 0px;
+  }
+  .list1-body{
+    font-size: 10px;
+    padding-left: 12px;
+    gap: 8px;
+  }
+  .scnd-list {
+    font-size: 10px;
+    padding-left: 20px;
+    margin-top: 70px;
+    gap: 8px;
+  }
+
+/* end section of page copyright section/////////// */
+
+  .end-sec {
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .last-line {
+    font-size: 10px;
+  }
+  .copyright-icon{
+    font-size: 10px;
+  }
+  .cards {
+    height: 12px;
+    width: 12px;
+    gap: 2px;
+  }
+  .line {
+    border-top: 1px solid rgb(207, 204, 204);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Large devices (small desktop/laptop) */
+/* @media (min-width: 1024px) {
+ 
+} */
+
